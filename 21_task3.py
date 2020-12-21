@@ -1,3 +1,7 @@
+"""когда my_name == name, не работает принтует почему то,
+но когда my_name != name, принт работает(((( """
+
+
 my_name = 'Edik'
 name = input('Введите ваше имя:\n')
 if name.lower().find('edik'):
