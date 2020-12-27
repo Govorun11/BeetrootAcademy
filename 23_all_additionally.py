@@ -34,5 +34,3 @@ while i != lenght_list:
 print(l)
 print('Max number from list: ', max(l))
 
-
-

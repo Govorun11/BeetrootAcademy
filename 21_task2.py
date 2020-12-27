@@ -2,7 +2,7 @@ number = input('Введите ваш номер телефона:\n'
                'Пример: +380ХХХХХХХХХ\n'
                '+38')
 
-if number.isdigit() == True and number != 10:
+if number.isdigit() == True:
     if len(number) > 10:
         print('вы не правильно ввели номер')
     elif len(number) < 10:
