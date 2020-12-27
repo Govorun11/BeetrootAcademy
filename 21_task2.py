@@ -1,17 +1,13 @@
 number = input('Введите ваш номер телефона:\n'
-               'Пример: +380-ХХ-ХХ-ХХХ-ХХ\n'
+               'Пример: +380ХХХХХХХХХ\n'
                '+38')
-while number !=10:
-    if number.isdigit() == True:
-        if len(number) > 10:
-            print('вы не правильно ввели номер')
-            break
-        elif len(number) < 10:
-            print('Вы не правильно ввели номер')
-            break
-        else:
-            print('Ваш номер +38'+number)
-            break
+
+if number.isdigit() == True and number != 10:
+    if len(number) > 10:
+        print('вы не правильно ввели номер')
+    elif len(number) < 10:
+        print('Вы не правильно ввели номер')
     else:
-        print('Некоректный ввод')
-        break
+        print(f'Ваш номер +38{number}!')
+else:
+    print('Некоректный ввод!')

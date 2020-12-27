@@ -1,12 +1,6 @@
-"""когда my_name == name, не работает принтует почему то,
-но когда my_name != name, принт работает(((( """
-
-name = 'edik'
-my_name = input('Введите ваше имя:\n')
-if my_name.lower()in name:
-    print('Добро пожаловать, '+my_name)
+my_name = 'edik kudryavcev'
+name = input('Введите ваше имя:\n')
+if name.lower() in my_name:
+    print(f'Добро пожаловать,{name}!')
 else:
-        print('Ты не мой хозяин')
-
-
-
+    print('Ты не мой хозяин')
