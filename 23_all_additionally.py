@@ -1,21 +1,4 @@
 '''
-Asked a limit from a user, and print  all numbers excepts multiple of 18,
-when the number will be 42, program prints "Because". Ignore the numbers between 50 to 80
-
-
-
-
-limit = int(input('Insert int limit:'))
-number = 0
-while number != limit:
-    number += 1
-    if number % 18 != 0 and number != 42 and number < 50 or number > 80 :
-        print(number)
-        break cbvb  b gcv
-    elif number == 42:
-        print('Because')
-'''
-'''
 Спросить у пользователя сколько попыток и до скольки максимум пробовать.
 Сделать генерацию рендомного значения столько то раз.
 Каждое значение вывести и потом вывести итоговое максимально ввыпавшее число.
